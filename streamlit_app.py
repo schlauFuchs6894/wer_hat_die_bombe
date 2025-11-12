@@ -7,7 +7,7 @@ st.set_page_config(page_title="Wer hat die Bombe", page_icon="💣", layout="cen
 st.title("💣 Wer hat die Bombe 💣")
 st.write("Drücke **Start** und höre zu ... tic... tic... tic... 💥")
 
-audio_path = Path("tic_tic_bumm.wav")
+audio_path = Path("tic_tic_bumm_realistisch.wav")
 
 if not audio_path.exists():
     st.error("⚠️ Die Datei 'tic_tic_bumm.wav' fehlt! Lege sie in denselben Ordner wie dieses Skript.")
